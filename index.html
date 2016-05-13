@@ -23,16 +23,16 @@
       <div class="wrapper">
         <header>
           <div class="header__city-choice">
-            <!-- <div class="row"> -->
-              <!-- <div class="col-md-12"> -->
+            <div class="row">
+              <div class="col-md-12">
                 <span>Выберите Ваш город:</span>
                 <a href="#">Санкт-Петербург</a>
-              <!-- </div> -->
-            <!-- </div> -->
+              </div>
+            </div>
           </div>
           <div class="header__middle-block">
-            <!-- <div class="row"> -->
-              <!-- <div class="col-md-3"> -->
+            <div class="row">
+              <div class="col-md-3">
                 <div class="header__middle-block__nav">
                   <ul>
                     <li><a href="#">О нас</a></li>
@@ -40,25 +40,25 @@
                     <li><a href="#">Оплата</a></li>
                   </ul>
                 </div>
-              <!-- </div> -->
-              <!-- <div class="col-md-6"> -->
+              </div>
+              <div class="col-md-6">
                 <div class="header__logo-slogan">
                   <img src="img/pic/logo.jpg" alt="Цветочный атлас">
                   <p>«<span>Цветочный атлас</span>» доставляет букеты и цветочные композиции<br>
                   не только по России, но и по странам СНГ</p>
                 </div>
-              <!-- </div> -->
-              <!-- <div class="col-md-3"> -->
+              </div>
+              <div class="col-md-3">
                 <div class="header__phone">
                   <p>8 800 555-55-44</p>
                   <button>Заказать обратный звонок</button>
                 </div>
-              <!-- </div> -->
-            <!-- </div> -->
+              </div>
+            </div>
           </div>
           <div class="header__nav">
-            <!-- <div class="row"> -->
-              <!-- <div class="col-md-8"> -->
+            <div class="row">
+              <div class="col-md-8">
                 <div class="header__nav__menu">
                   <ul>
                     <li><a href="#">Главная</a></li>
@@ -69,8 +69,8 @@
                     <li><a href="#">Акции</a></li>
                   </ul>
                 </div>
-              <!-- </div> -->
-              <!-- <div class="col-md-4"> -->
+              </div>
+              <div class="col-md-4">
                 <div class="header__nav__search-and-basket">
                   <div class="header__nav__search__skin">
                     <input type="text" placeholder="Что вы ищете?">
@@ -79,10 +79,313 @@
                     <a class="icon-basket" href="#"><span>1</span></a>
                   </div>
                 </div>
-              <!-- </div> -->
-            <!-- </div> -->
+              </div>
+            </div>
           </div>
         </header>
+        <div class="main">
+          <section class="main-page-slider-section">
+            <div class="row">
+              <div class="col-md-8">
+                <div class="main-page-slider-section__slider">
+                  <div class="exclusive-offer">
+                    <p>Нужен <br> <span>эксклюзивный</span> букет?</p>
+                    <p>Мы составим его вместе с Вами!</p>
+                    <div class="exclusive-offer__btn-skin">
+                      <button>ПОДРОБНЕЕ ОБ УСЛУГЕ</button>
+                    </div>
+                  </div>
+                  <div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
+                    <!-- Индикаторы для карусели -->
+                    <ol class="carousel-indicators">
+                      <!-- Перейти к 0 слайду карусели с помощью соответствующего индекса data-slide-to="0" -->
+                      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                      <!-- Перейти к 1 слайду карусели с помощью соответствующего индекса data-slide-to="1" -->
+                      <li data-target="#myCarousel" data-slide-to="1"></li>
+                      <!-- Перейти к 2 слайду карусели с помощью соответствующего индекса data-slide-to="2" -->
+                      <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <!-- Слайды карусели -->
+                    <div class="carousel-inner">
+                      <!-- Слайды создаются с помощью контейнера с классом item, внутри которого помещается содержимое слайда -->
+                      <div class="active item">
+                        <img src="img/pic/main-page-slide/img.jpg" alt="Цветы">
+                      </div>
+                      <!-- Слайд №2 -->
+                      <div class="item">
+                          <img src="img/pic/main-page-slide/img2.jpg" alt="Цветы">
+                      </div>
+                      <!-- Слайд №3 -->
+                      <div class="item">
+                          <img src="img/pic/main-page-slide/img3.jpg" alt="Цветы">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="main-page-advertising-block">
+                  <p class="advertising-block__title">Букет дня:</p>
+                  <img src="img/pic/img-advertising-block.jpg" alt="">
+                  <p class="advertising-block__price">5 550 р.</p>
+                  <p class="advertising-block__name">Букет «Нежность весны»</p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="green-section">
+            <p>Подарочные наборы с букетом на все случаи жизни!</p>
+          </section>
+          <section class="main-page-catalog">
+            <h2>Подберите букет</h2>
+            <div class="main-page-catalog__filter">
+              <span>Цена: </span>
+              <select name="" id="">
+                <option value="">Любая цена</option>
+                <option value="">2000-3000</option>
+                <option value="">3000+</option>
+              </select>
+              <span>Повод: </span>
+              <select name="" id="">
+                <option value="">Любой повод</option>
+                <option value="">8 марта</option>
+                <option value="">Свадьба</option>
+              </select>
+              <a href="#">Цветы</a>
+            </div>
+            <div class="main-catalog">
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="main-catalog-flower">
+                      <img src="img/pic/img-advertising-block.jpg" alt="">
+                      <p class="main-catalog-flower__price">5 550 р.</p>
+                      <p class="main-catalog-flower__name">Букет «Нежность весны»</p>
+                      <div class="main-catalog-flower__add-btn-skin">
+                        <button>Добавить в корзину</button>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="main-catalog-flower">
+                      <img src="img/pic/img-advertising-block.jpg" alt="">
+                      <p class="main-catalog-flower__price">5 550 р.</p>
+                      <p class="main-catalog-flower__name">Букет «Нежность весны»</p>
+                      <div class="main-catalog-flower__add-btn-skin">
+                        <button>Добавить в корзину</button>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="main-catalog-flower">
+                      <img src="img/pic/img-advertising-block.jpg" alt="">
+                      <p class="main-catalog-flower__price">5 550 р.</p>
+                      <p class="main-catalog-flower__name">Букет «Нежность весны»</p>
+                      <div class="main-catalog-flower__add-btn-skin">
+                        <button>Добавить в корзину</button>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="main-catalog-flower">
+                      <img src="img/pic/img-advertising-block.jpg" alt="">
+                      <p class="main-catalog-flower__price">5 550 р.</p>
+                      <p class="main-catalog-flower__name">Букет «Нежность весны»</p>
+                      <div class="main-catalog-flower__add-btn-skin">
+                        <button>Добавить в корзину</button>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="main-catalog-flower">
+                      <img src="img/pic/img-advertising-block.jpg" alt="">
+                      <p class="main-catalog-flower__price">5 550 р.</p>
+                      <p class="main-catalog-flower__name">Букет «Нежность весны»</p>
+                      <div class="main-catalog-flower__add-btn-skin">
+                        <button>Добавить в корзину</button>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="main-catalog-flower">
+                      <img src="img/pic/img-advertising-block.jpg" alt="">
+                      <p class="main-catalog-flower__price">5 550 р.</p>
+                      <p class="main-catalog-flower__name">Букет «Нежность весны»</p>
+                      <div class="main-catalog-flower__add-btn-skin">
+                        <button>Добавить в корзину</button>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="main-catalog-flower">
+                      <img src="img/pic/img-advertising-block.jpg" alt="">
+                      <p class="main-catalog-flower__price">5 550 р.</p>
+                      <p class="main-catalog-flower__name">Букет «Нежность весны»</p>
+                      <div class="main-catalog-flower__add-btn-skin">
+                        <button>Добавить в корзину</button>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="main-catalog-flower">
+                      <img src="img/pic/img-advertising-block.jpg" alt="">
+                      <p class="main-catalog-flower__price">5 550 р.</p>
+                      <p class="main-catalog-flower__name">Букет «Нежность весны»</p>
+                      <div class="main-catalog-flower__add-btn-skin">
+                        <button>Добавить в корзину</button>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="main-catalog-flower">
+                      <img src="img/pic/img-advertising-block.jpg" alt="">
+                      <p class="main-catalog-flower__price">5 550 р.</p>
+                      <p class="main-catalog-flower__name">Букет «Нежность весны»</p>
+                      <div class="main-catalog-flower__add-btn-skin">
+                        <button>Добавить в корзину</button>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="main-catalog-flower">
+                      <img src="img/pic/img-advertising-block.jpg" alt="">
+                      <p class="main-catalog-flower__price">5 550 р.</p>
+                      <p class="main-catalog-flower__name">Букет «Нежность весны»</p>
+                      <div class="main-catalog-flower__add-btn-skin">
+                        <button>Добавить в корзину</button>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="main-catalog-flower">
+                      <img src="img/pic/img-advertising-block.jpg" alt="">
+                      <p class="main-catalog-flower__price">5 550 р.</p>
+                      <p class="main-catalog-flower__name">Букет «Нежность весны»</p>
+                      <div class="main-catalog-flower__add-btn-skin">
+                        <button>Добавить в корзину</button>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="main-catalog-flower">
+                      <img src="img/pic/img-advertising-block.jpg" alt="">
+                      <p class="main-catalog-flower__price">5 550 р.</p>
+                      <p class="main-catalog-flower__name">Букет «Нежность весны»</p>
+                      <div class="main-catalog-flower__add-btn-skin">
+                        <button>Добавить в корзину</button>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="main-catalog-flower">
+                      <img src="img/pic/img-advertising-block.jpg" alt="">
+                      <p class="main-catalog-flower__price">5 550 р.</p>
+                      <p class="main-catalog-flower__name">Букет «Нежность весны»</p>
+                      <div class="main-catalog-flower__add-btn-skin">
+                        <button>Добавить в корзину</button>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="main-catalog-flower">
+                      <img src="img/pic/img-advertising-block.jpg" alt="">
+                      <p class="main-catalog-flower__price">5 550 р.</p>
+                      <p class="main-catalog-flower__name">Букет «Нежность весны»</p>
+                      <div class="main-catalog-flower__add-btn-skin">
+                        <button>Добавить в корзину</button>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="main-catalog-flower">
+                      <img src="img/pic/img-advertising-block.jpg" alt="">
+                      <p class="main-catalog-flower__price">5 550 р.</p>
+                      <p class="main-catalog-flower__name">Букет «Нежность весны»</p>
+                      <div class="main-catalog-flower__add-btn-skin">
+                        <button>Добавить в корзину</button>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="main-catalog-flower">
+                      <img src="img/pic/img-advertising-block.jpg" alt="">
+                      <p class="main-catalog-flower__price">5 550 р.</p>
+                      <p class="main-catalog-flower__name">Букет «Нежность весны»</p>
+                      <div class="main-catalog-flower__add-btn-skin">
+                        <button>Добавить в корзину</button>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="main-catalog-pagination">
+                <div class="row">
+                  <div class="col-md-9">
+                    <div class="pagination-left">
+                      <a href="#" class="pagination-prev">Предыдущая</a>
+                      <a href="#" class="pagination-number">1</a>
+                      <a href="#" class="pagination-number">2</a>
+                      <a href="#" class="pagination-number">3</a>
+                      <a href="#" class="pagination-number">4</a>
+                      <a href="#" class="pagination-number">5</a>
+                      <a href="#" class="pagination-next">Следующая</a>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="pagination-right">
+                      <a href="#" class="pagination-view-all">Посмотреть все</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="main-catalog-about-free-delivery">
+                <p>Доставка всех <span>букетов</span> производится бесплатно!</p>
+              </div>
+            </div>
+          </section>
+          <section class="main-page__advantage">
+            <div class="row">
+              <div class="col-md-4">
+                <p>доставка по Санкт-Петербургу<br> за 1 час</p>
+                <img src="img/pic/main-page-advantages/img-clock.png" alt="Часики">
+              </div>
+              <div class="col-md-4">
+                <p>всегда только самые <br> свежие цветы</p>
+                <img src="img/pic/main-page-advantages/img-flower.png" alt="Цветочки">
+              </div>
+              <div class="col-md-4">
+                <p>поддержка любых <br> способов оплаты</p>
+                <img src="img/pic/main-page-advantages/img-money.png" alt="Бэксы">
+              </div>
+            </div>
+          </section>
+          <section class="main-page__clients-reviews">
+            <h2>Отзывы наших клиентов</h2>
+            <div class="clients-reviews__skin">
+              <div class="triangle-down"></div>
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="client-review-a">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor beatae enim illo quo praesentium odio numquam dignissimos obcaecati earum molestiae dolorem, rem tempore sint, ex, facilis. Perspiciatis pariatur, libero fugit et necessitatibus praesentium deserunt iste commodi repellendus, quisquam harum. Vel qui totam cupiditate aut, quae sint cumque impedit itaque ipsam.</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="client-review-b">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus aliquid explicabo, quae odio veniam modi dolore. Delectus sed nisi ad ipsam quas laboriosam mollitia incidunt. Odit nam doloremque modi ipsam animi blanditiis vel non minus possimus voluptates, repudiandae harum, natus aut illo nisi. Eligendi quaerat, ipsam corrupti excepturi aut sed et in, magnam omnis, numquam maiores vel ipsa optio consectetur.</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="client-review-c">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, facilis quos voluptate eaque inventore mollitia ea. Aliquid minima perspiciatis veritatis exercitationem delectus blanditiis quaerat nisi voluptate aperiam perferendis temporibus accusantium eos ea consequatur cum, aliquam sed nobis nam quas culpa.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
       </div>
       </div>
       <footer>
@@ -133,5 +436,37 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      // Инициализирует карусель
+      $(".start-slide").click(function(){
+        $("#myCarousel2").carousel('cycle');
+      });
+      // Останавливает процесс автоматической смены слайдов карусели
+      $(".pause-slide").click(function(){
+        $("#myCarousel2").carousel('pause');
+      });
+      // Осуществляет переход на предыдущий слайд
+      $(".prev-slide").click(function(){
+        $("#myCarousel2").carousel('prev');
+      });
+      // Осуществляет переход на следующий слайд
+      $(".next-slide").click(function(){
+        $("#myCarousel2").carousel('next');
+      });
+      // Осуществляет переход на 0 слайд карусели
+      $(".slide-one").click(function(){
+        $("#myCarousel2").carousel(0);
+      });
+      // Осуществляет переход на 1 слайд карусели
+      $(".slide-two").click(function(){
+        $("#myCarousel2").carousel(1);
+      });
+      // Осуществляет переход на 2 слайд карусели
+      $(".slide-three").click(function(){
+        $("#myCarousel2").carousel(2);
+      });
+    });
+    </script>
   </body>
 </html>
