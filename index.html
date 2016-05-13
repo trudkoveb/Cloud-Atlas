@@ -23,12 +23,12 @@
       <div class="wrapper">
         <header>
           <div class="header__city-choice">
-            <div class="row">
-              <div class="col-md-12">
+            <!-- <div class="row"> -->
+              <!-- <div class="col-md-12"> -->
                 <span>Выберите Ваш город:</span>
                 <a href="#">Санкт-Петербург</a>
-              </div>
-            </div>
+              <!-- </div> -->
+            <!-- </div> -->
           </div>
           <div class="header__middle-block">
             <!-- <div class="row"> -->
@@ -64,8 +64,8 @@
                     <li><a href="#">Главная</a></li>
                     <li><a href="#">Букеты</a></li>
                     <li><a href="#">Композиция</a></li>
-                    <li><a href="#">Подарки<br> и наборы</a></li>
-                    <li><a href="#">Корпоративным<br> клиентам</a></li>
+                    <li class="header__nav-two-lines"><a href="#">Подарки<br> и наборы</a></li>
+                    <li class="header__nav-two-lines"><a href="#">Корпоративным<br> клиентам</a></li>
                     <li><a href="#">Акции</a></li>
                   </ul>
                 </div>
@@ -76,7 +76,7 @@
                     <input type="text" placeholder="Что вы ищете?">
                   </div>
                   <div class="header__nav__basket">
-                    <span>1</span>
+                    <a class="icon-basket" href="#"><span>1</span></a>
                   </div>
                 </div>
               <!-- </div> -->
@@ -84,7 +84,50 @@
           </div>
         </header>
       </div>
-    </div>
+      </div>
+      <footer>
+        <div class="container">
+          <div class="footer__skin">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="footer__nav">
+                  <p class="footer__title">Информация</p>
+                  <ul>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Помощь</a></li>
+                    <li><a href="#">Оплата</a></li>
+                    <li><a href="#">Доставка</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="footer__subscribe">
+                  <p class="footer__title">Новости</p>
+                  <p class="footer__subscribe-text">Оформите подписку на новости и<br>  получите скидку!</p>
+                  <div class="footer__subscribe-input">
+                    <input type="text" placeholder="Введите Ваш e-mail">
+                  </div>
+                  <div class="footer__subscribe-social">
+                    <a class="insta" href="#"></a>
+                    <a class="vk" href="#"></a>
+                    <a class="facebook" href="#"></a>
+                    <a class="twitter" href="#"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="footer__contacts">
+                  <p class="footer__title">Контакты</p>
+                  <p class="footer__contacts-info icon-address">ООО «Цветочный атлас»<br> г.Санкт-Петербург,<br> ул. Счастливая д.3</p>
+                  <p class="footer__contacts-info icon-tel">8 800 555-55-44</p>
+                  <a class="footer__contacts-info icon-mail" href="mailto:infoflower@gmail.com">infoflower@gmail.com</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
