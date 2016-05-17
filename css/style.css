@@ -30,8 +30,28 @@ input, select, textarea, button{
     outline: none;
 }
 
+h1{
+    margin: 0;
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+h2{
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+    color: #686868;
+    margin-bottom: 40px;
+    margin-top: 0;
+    padding-top: 20px;
+}
+
 .wrapper{
     padding-bottom: 290px;
+}
+
+.main{
+    background-color: #fff;
 }
 
 /* Header */
@@ -255,7 +275,7 @@ header > .header__city-choice a{
 /* footer */
 
 .footer__skin{
-    background-color: #fff;
+    background-color: #F7F7F7;
     padding-top: 35px;
     padding-bottom: 74px;
 }
@@ -514,15 +534,6 @@ header > .header__city-choice a{
 .main-page-catalog{
     background-color: #fff;
     padding-top: 46px;
-}
-
-.main-page-catalog > h2{
-    text-align: center;
-    font-family: 'PT Sans', sans-serif;
-    font-size: 24px;
-    color: #686868;
-    margin-bottom: 40px;
-    margin-top: 0;
 }
 
 .main-page-catalog__filter{
@@ -787,13 +798,6 @@ header > .header__city-choice a{
     padding-top: 70px;
 }
 
-.main-page__clients-reviews > h2{
-    margin-top: 0;
-    text-align: center;
-    padding-bottom: 40px;
-    color: #686868;
-}
-
 .clients-reviews__skin{
     background-color: #f7f7f7;
     padding-top: 90px;
@@ -882,12 +886,6 @@ header > .header__city-choice a{
     padding-bottom: 30px;
 }
 
-.main-page__info-text > h1{
-    margin: 0;
-    font-size: 24px;
-    padding-bottom: 20px;
-}
-
 .main-page__info-text > p{
     margin: 0;
 }
@@ -941,15 +939,6 @@ header > .header__city-choice a{
     /*text-align: center;*/
     width: 80%;
     margin: 0 auto;
-}
-
-.bouquet-catalog > h2{
-    text-align: center;
-    font-family: 'PT Sans', sans-serif;
-    font-size: 24px;
-    color: #686868;
-    margin-bottom: 40px;
-    margin-top: 0;
 }
 
 .bouquet-catalog__filter > span{
@@ -1066,16 +1055,12 @@ header > .header__city-choice a{
 }
 
 .bouquet-catalog__example-skin-img > img{
-  margin-left: -5px;
-}
-
-.bouquet-pre-catalog-section h2{
-    text-align: center;
-    font-family: 'PT Sans', sans-serif;
-    font-size: 24px;
-    color: #686868;
-    margin-bottom: 40px;
-    margin-top: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
 .bouquet-catalog__example > p{
@@ -1110,15 +1095,6 @@ header > .header__city-choice a{
     /*text-align: center;*/
     width: 80%;
     margin: 0 auto;
-}
-
-.composition-catalog > h2{
-    text-align: center;
-    font-family: 'PT Sans', sans-serif;
-    font-size: 24px;
-    color: #686868;
-    margin-bottom: 40px;
-    margin-top: 0;
 }
 
 .composition-catalog__filter > span{
@@ -1231,16 +1207,12 @@ header > .header__city-choice a{
 }
 
 .composition-catalog__example-skin-img > img{
-  margin-left: -5px;
-}
-
-.composition-pre-catalog-section h2{
-    text-align: center;
-    font-family: 'PT Sans', sans-serif;
-    font-size: 24px;
-    color: #686868;
-    margin-bottom: 40px;
-    margin-top: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
 }
 
 .composition-catalog__example > p{
@@ -1276,15 +1248,6 @@ header > .header__city-choice a{
 .presents-catalog__filter{
     width: 80%;
     margin: 0 auto;
-}
-
-.presents-catalog > h2{
-    text-align: center;
-    font-family: 'PT Sans', sans-serif;
-    font-size: 24px;
-    color: #686868;
-    margin-bottom: 40px;
-    margin-top: 0;
 }
 
 .presents-catalog__filter > span{
@@ -1397,16 +1360,12 @@ header > .header__city-choice a{
 }
 
 .presents-catalog__example-skin-img > img{
-  margin-left: -5px;
-}
-
-.presents-pre-catalog-section h2{
-    text-align: center;
-    font-family: 'PT Sans', sans-serif;
-    font-size: 24px;
-    color: #686868;
-    margin-bottom: 40px;
-    margin-top: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
 }
 
 .presents-catalog__example > p{
@@ -1540,15 +1499,7 @@ header > .header__city-choice a{
 .basket-page{
     background-color: #fff;
     padding: 50px 40px;
-}
-
-.basket-page > h2{
-    text-align: center;
-    font-family: 'PT Sans', sans-serif;
-    font-size: 24px;
-    color: #686868;
-    margin: 0;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
 }
 
 .basket-page > h2 + table{
@@ -1598,6 +1549,11 @@ header > .header__city-choice a{
     vertical-align: middle;
 }
 
+.reboot-link{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
 .reboot-link:after{
     content: "";
     display: block;
@@ -1621,6 +1577,7 @@ header > .header__city-choice a{
 .basket-page__btn-skin{
     width: 20%;
     margin: 0 auto;
+    margin-top: 45px;
 }
 
 .basket-page__btn-skin input[type=submit]{
@@ -1628,4 +1585,318 @@ header > .header__city-choice a{
     color: #fff;
     border: none;
     width: 100%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.basket-page-delivery{
+    margin-top: 55px;
+    margin-left: 100px;
+}
+
+.basket-page-delivery > p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 21px;
+    color: #686868;
+}
+
+.basket-page-delivery label{
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    color: #949494;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.basket-page-delivery  > span{
+    display: block;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    color: #949494;
+}
+
+.basket-page-total-price{
+    margin-top: 40px;
+    padding-left: 65px;
+}
+
+.basket-page-total-price > table{
+    width: 100%;
+    text-align: center;
+    border: 1px solid  #79b02e;
+    font-family: 'PT Sans', sans-serif;
+    color: #686868;
+}
+
+.basket-page-total-price > table > tbody > tr td:first-child{font-size: 21px; width: 53%;}
+.basket-page-total-price > table > tbody > tr td:last-child{font-size: 20px; width: 47%;}
+
+.basket-page-total-price > table td{
+    border: 1px solid  #79b02e;
+}
+
+
+/* оформление заказа */
+
+.order-page{
+    background-color: #fff;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.order-page form{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.order-page form label{
+    padding-right: 10px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 21px;
+    color: #686868;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+.order-page form p > label{
+    padding-left: 15px;
+}
+
+.order-page form > div > div{
+    margin-bottom: 20px;
+}
+
+.order-page form label span{
+    color: #79b02e;
+}
+
+.order-page form input, .order-page form textarea{
+    font-size: 21px;
+    border: 1px solid  #686868;
+    padding-left: 8px;
+}
+
+.order-page form input:focus, .order-page form textarea:focus{
+    border: 1px solid  #79b02e;
+}
+
+.order-page form .input-name{
+    width: 80%;
+}
+
+.tel-code{
+    border: 1px solid  #686868;
+    width: 8%;
+    color: #000;
+}
+
+.tel-number{
+    width: 20%;
+}
+
+.order-page form div > span{
+    color: #686868;
+    font-size: 21px;
+    padding-right: 20px;
+}
+
+.order-page form .address-input{
+    width: 100%;
+}
+
+.order-page form .time-input{
+    width: 38%;
+}
+
+.order-page form textarea{
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: 117px;
+    min-height: 117px;
+    max-height: 117px;
+    resize: none;
+}
+
+.order-page form div > p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 21px;
+    color: #949494;
+}
+
+.order-page__btn-skin{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.order-page__btn-skin input[type=submit]{
+    display: inline-block;
+    vertical-align: middle;
+    width: 45%;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+    background-color: #79b02e;
+    border: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.order-page__btn-skin input[type=submit]:first-child{
+    margin-right: 9%;
+}
+
+/* Сравнение товара */
+
+.compare-page{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 80px;
+}
+
+.compare-page__product{
+    text-align: center;
+}
+
+.compare-page__product-title{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 21px;
+    color: #686868;
+}
+
+.compare-page__product-price{
+    font-weight: bold;
+    font-size: 26px;
+    color: #79b02e;
+}
+
+.compare-page__product-description{
+    font-family: Arial, sans-serif;
+    font-size: 21px;
+    color: #949494;
+}
+
+.compare-page__product-btn-skin{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.compare-page__product-btn-skin button{
+    display: block;
+    width: 100%;
+    color: #fff;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    border: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.compare-page__add-btn{
+    position: relative;
+}
+
+.compare-page__add-btn:after{
+    content: "";
+    display: block;
+    background-image: url(../img/spritesheet.png);
+    width: 25px;
+    height: 25px;
+    background-position: -53px -5px;
+    position: absolute;
+    top: 4px;
+    left: 20px;
+}
+
+.compare-page__product-btn-skin button:first-child{background-color: #79b02e; margin-bottom: 20px;}
+.compare-page__product-btn-skin button:nth-child(2){background-color: #f39300;}
+
+/* о нас */
+
+.about-page{
+    padding-bottom: 30px;
+}
+
+.about-page__img-skin{
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.about-page__img-skin > img{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.about-page{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.about-page > p{
+    font-family: Arial, sans-serif;
+    font-size: 21px;
+    color: #949494;
+    margin-bottom: 40px;
+    padding-left: 95px;
+    padding-right: 100px;
+    text-align: justify;
+}
+
+/* Доставка */
+
+.delivery-page{
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+.delivery-page__info{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.delivery-page__info > p{
+    font-family: Arial, sans-serif;
+    font-size: 21px;
+    color: #949494;
+}
+
+.delivery-page__info > p:first-child{margin-bottom: 40px;}
+
+/* Оплата */
+
+.payment-page{
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+.payment-page__info{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.payment-page__info > p, .payment-page__info > ul{
+    font-family: Arial, sans-serif;
+    font-size: 21px;
+    color: #949494;
+}
+
+.payment-page__info > ul{
+    list-style: none;
+    padding-left: 20px;
+}
+
+.payment-page__info > ul > li{
+    position: relative;
+    padding-left: 20px;
+}
+
+.payment-page__info > ul > li:after{
+    content: "-";
+    display: block;
+    color: #949494;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
