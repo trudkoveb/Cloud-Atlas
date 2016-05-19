@@ -1817,6 +1817,7 @@ header > .header__city-choice a{
 
 .about-page{
     padding-bottom: 30px;
+    padding-top: 50px;
 }
 
 .about-page__img-skin{
@@ -1899,4 +1900,241 @@ header > .header__city-choice a{
     position: absolute;
     top: 0;
     left: 0;
+}
+
+
+/* Поиск */
+
+.search-page{
+    padding-left: 140px;
+    padding-right: 180px;
+    padding-bottom: 85px;
+}
+
+.search-page input{
+    width: 100%;
+}
+
+.search-page input[type=submit]{
+    background-color: #79b02e;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'PT Sans', sans-serif;
+    border: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.search-page input[type=text]{
+    font-size: 21px;
+    font-family: 'PT Sans', sans-serif;
+    border: 1px solid  #686868;
+    padding-left: 20px;
+}
+
+.search-page input[type=text]::-webkit-input-placeholder {font-family: 'PT Sans', sans-serif; font-style: italic;
+ color:#7b7b7b}
+.search-page input[type=text]::-moz-placeholder          {font-family: 'PT Sans', sans-serif; font-style: italic;
+ color:#7b7b7b}  /* Firefox 19+ */
+.search-page input[type=text]:-moz-placeholder           {font-family: 'PT Sans', sans-serif; font-style: italic;
+ color:#7b7b7b}  /* Firefox 18- */
+.search-page input[type=text]:-ms-input-placeholder {font-family: 'PT Sans', sans-serif; font-style: italic;
+ color:#7b7b7b}
+
+.search-page_result-title{
+    font-size: 24px;
+    font-family: 'PT Sans', sans-serif;
+    color: #686868;
+    margin-top: 50px;
+}
+
+.search-page_result-title > .search-page_result-name{
+    color: #73a625;
+}
+
+.search-page_result{
+    margin-top: 50px;
+}
+
+.search-page_result-example{
+    margin-bottom: 70px;
+}
+
+.search-page_result-example-img{
+    border: 2px solid  #d2d2d2;
+    padding: 10px;
+}
+
+.search-page_result-example-img > img{
+    width: 100%;
+}
+
+.search-page_result-example-text-title{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #79b02d;
+    padding-top: 5px;
+}
+
+.search-page_result-example-text-title ~ p{
+    font-size: 20px;
+    font-family: 'PT Sans', sans-serif;
+    color: #949494;
+    text-align: justify;
+}
+
+.search-page_result-example-text-title ~ p > span{
+    color: #6a6a6a;
+}
+
+.search-page_result-show-all > a{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+    color: #7ead2b;
+    position: relative;
+    padding-left: 27px;
+}
+
+.search-page_result-show-all{
+    text-align: right;
+}
+
+.search-page_result-show-all > a:before {
+    content: "";
+    display: block;
+    width: 21px;
+    height: 21px;
+    background-image: url(../img/icon-bouquet-filter.png);
+    position: absolute;
+    top: 5px;
+    left: 0;
+}
+
+/* отзывы */
+
+.reviews-page{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+}
+
+.reviews-page .reviews-page-example > blockquote{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    color: #686868;
+    border-left: none;
+}
+
+.reviews-page .reviews-page-example > cite{
+    color: #fb9a33;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+.reviews-page > h2 + div{
+    margin-bottom: 80px;
+}
+
+.reviews-page-view-all > a{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+    color: #7ead2b;
+    position: relative;
+    padding-left: 27px;
+}
+
+.reviews-page-view-all{
+    text-align: right;
+}
+
+.reviews-page-view-all > a:before {
+    content: "";
+    display: block;
+    width: 21px;
+    height: 21px;
+    background-image: url(../img/icon-bouquet-filter.png);
+    position: absolute;
+    top: 5px;
+    left: 0;
+}
+
+.reviews-page__feedback{
+    background-color: #f7f7f7;
+    position: relative;
+    padding-top: 120px;
+    padding-bottom: 75px;
+}
+
+.reviews-page__feedback > .triangle-down{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 60px solid #ffffff;
+    position: absolute;
+    top: -91%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.reviews-page__feedback form{
+    width: 40%;
+    margin: 0 auto;
+}
+
+.reviews-page__feedback form label{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 21px;
+    color: #686868;
+    font-weight: normal;
+    text-align: left;
+}
+
+.reviews-page__feedback form label:nth-of-type(1){ padding-right: 40px; }
+
+.reviews-page__feedback form input[type=text], .reviews-page__feedback form textarea{
+    border: 1px solid  #686868;
+    font-size: 21px;
+    padding-left: 10px;
+}
+
+.reviews-page__feedback form textarea{
+    border: 1px solid  #686868;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    font-size: 21px;
+    height: 153px;
+    min-height: 153px;
+    max-height: 153px;
+    resize: none;
+}
+
+.reviews-page__feedback form input[type=text]{
+    width: 83.5%;
+    margin-bottom: 35px;
+}
+
+.reviews-page__feedback form input[type=text]:focus, .reviews-page__feedback form textarea:focus{
+    border: 1px solid  #79b02e;
+}
+
+.reviews-page__feedback-btn-skin{
+    width: 40%;
+    margin-top: 40px;
+}
+
+.reviews-page__feedback-btn-skin input[type=submit]{
+    background-color: #79b02e;
+    color: #fff;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    border: none;
+    width: 100%;
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
