@@ -86,7 +86,7 @@
         <div class="main">
         <div class="basket-page">
           <h2>Ваша корзина</h2>
-          <table>
+          <table class="desktop__basket-table">
             <thead>
               <tr>
                 <th>Изображение</th>
@@ -99,7 +99,7 @@
             </thead>
             <tbody>
               <tr>
-                <td><img src="img/pic/basket/img.jpg" alt=""></td>
+                <td><img class="img-responsive" src="img/pic/basket/img.jpg" alt=""></td>
                 <td>Букет «Майский день»</td>
                 <td>Средний</td>
                 <td>
@@ -113,6 +113,36 @@
                 <td>5 550</td>
               </tr>
             </tbody>
+          </table>
+          <table class="mobile__basket-table">
+            <tr>
+              <td>Изображение</td>
+              <td><img class="img-responsive" src="img/pic/basket/img.jpg" alt=""></td>
+            </tr>
+            <tr>
+              <td>Название</td>
+              <td>Букет «Майский день»</td>
+            </tr>
+            <tr>
+              <td>Размер</td>
+              <td>Средний</td>
+            </tr>
+            <tr>
+              <td>Количество</td>
+              <td><div class="basket-input-skin">
+                    <input type="text" placeholder="1">
+                    <a class="reboot-link" href="#"></a>
+                    <a class="delete-link" href="#"></a>
+                  </div></td>
+            </tr>
+            <tr>
+              <td>Цена за шт.</td>
+              <td>5 550</td>
+            </tr>
+            <tr>
+              <td>Стоимость</td>
+              <td>5 550</td>
+            </tr>
           </table>
           <div class="row">
             <div class="col-md-8">
@@ -184,8 +214,8 @@
               <div class="col-md-4">
                 <div class="footer__contacts">
                   <p class="footer__title">Контакты</p>
-                  <p class="footer__contacts-info icon-address">ООО «Цветочный атлас»<br> г.Санкт-Петербург,<br> ул. Счастливая д.3</p>
-                  <p class="footer__contacts-info icon-tel">8 800 555-55-44</p>
+                  <p class="footer__contacts-info icon-address">ООО «Цветочный атлас»<br> г.Санкт-Петербург,<br> ул. Счастливая д.3</p><br>
+                  <p class="footer__contacts-info icon-tel">8 800 555-55-44</p><br>
                   <a class="footer__contacts-info icon-mail" href="mailto:infoflower@gmail.com">infoflower@gmail.com</a>
                 </div>
               </div>
