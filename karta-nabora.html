@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Карта товара</title>
+    <title>Карта набора</title>
     <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <!-- Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -84,115 +84,88 @@
           </div>
         </header>
         <div class="main">
-          <div class="product-card-page">
+          <div class="set-card-page">
             <!-- breadcrumbs -->
             cnsjsnc sncsncjs cnsjncs csjncs
-            <div class="product-card-page__example">
-              <p class="product-card-page__example-title">Букет «Оранжевое настроение»</p>
+            <div class="set-card-page__example">
+              <p class="set-card-page__example-title">Набор «С 8 марта!»</p>
               <div class="row">
                 <div class="col-md-4">
-                  <div class="product-card-page__example-img-skin">
-                    <img src="img/pic/karta-tovara/img-1.jpg" alt="Букет">
+                  <div class="set-card-page__example-img-skin">
+                    <img src="img/pic/set-card/img1.jpg" alt="Букет">
+                    <div class="set-card-page__example-another-img-skin">
+                      <img src="img/pic/set-card/category-img3.jpg" alt="Пример">
+                      <img src="img/pic/set-card/category-img4.jpg" alt="Пример">
+                      <img src="img/pic/set-card/img-1.jpg" alt="Пример">
+                    </div>
                   </div>
+                  <div class="set-card-page__example-compare-block">
+                      <input id="set-card-page__compare" type="checkbox">
+                      <label for="set-card-page__compare">Добавить для сравнения</label><br>
+                      <span><a href="#">Сравнить</a> выбранные товары</span>
+                    </div>
                 </div>
                 <div class="col-md-8">
-                  <div class="product-card-page__example-info">
-                    <p><span>Состав:</span> роза, гербера, ранункулюс.</p>
-                    <p><span>Параметры:</span> диаметр букета ~ 40 см, высота ~ 70 см.</p>
-                    <p><span>Описание:</span> яркий и солнечный букет «Оранжевое настроение» поднимет настроение и подарит состояние искреннего счастья. Букет можеть стать отличным подарком как на день рождения, так и на празднование официальных мероприятий.</p>
+                  <div class="set-card-page__example-info">
+                    <p><span>Состав:</span> букет «Оранжевое настроение», коробка конфет «Raffaello», открытка «С 8 марта!».</p>
+                    <p><span>Описание:</span> яркий и солнечный набор «С 8 марта!» поднимет настроение и подарит состояние искреннего счастья. Букет станет отличным подарком на праздник.</p>
+                    <p><span>Параметры букета:</span> диаметр ~ 40 см, высота ~ 70 см.</p>
                     <table>
                       <tbody>
                         <tr>
                           <td>Размер:</td>
                           <td>
-                            <input type="radio" id="little-bouquet" name="flower-size"><label for="little-bouquet">Маленький букет</label><br><span>(на 20% меньше изображенного)</span>
+                            <input type="radio" id="little-set" name="flower-size"><label for="little-set">Маленький букет</label><br><span>(на 20% меньше изображенного)</span>
                           </td>
                           <td>
-                            <input type="radio" id="middle-bouquet" name="flower-size"><label for="middle-bouquet">Средний букет</label><br><span>(изображен на картинке)</span>
+                            <input type="radio" id="middle-set" name="flower-size"><label for="middle-set">Средний букет</label><br><span>(изображен на картинке)</span>
                           </td>
                           <td>
-                            <input type="radio" id="big-bouquet" name="flower-size"><label for="big-bouquet">Большой букет</label><br><span>(на 25% больше изображенного)</span>
+                            <input type="radio" id="big-set" name="flower-size"><label for="big-set">Большой букет</label><br><span>(на 25% больше изображенного)</span>
                           </td>
                         </tr>
                         <tr>
                           <td>Стоимость:</td>
-                          <td>4 700 р.</td>
-                          <td>5 500 р.</td>
-                          <td>7 000 р.</td>
+                          <td>5 300 р.</td>
+                          <td>6 700 р.</td>
+                          <td>9 000 р.</td>
+                        </tr>
+                        <tr>
+                          <td>Комплектация:</td>
+                          <td>
+                            <input id="set-card-page-checkbox-a" type="checkbox"><label for="set-card-page-checkbox-a">Букет</label>
+                          </td>
+                          <td>
+                            <input id="set-card-page-checkbox-b" type="checkbox"><label for="set-card-page-checkbox-b">Конфеты</label>
+                          </td>
+                          <td>
+                            <input id="set-card-page-checkbox-c" type="checkbox"><label for="set-card-page-checkbox-c">Открытка</label>
+                          </td>
                         </tr>
                       </tbody>
                     </table>
-                      <div class="product-card-page__example-btn-skin">
+                      <div class="set-card-page__example-btn-skin">
                         <button>Добавить в корзину</button>
                         <button>Купить в один клик</button>
                       </div>
-                  </div>
-                </div>
-              </div>
-                <div class="row">
-                  <div class="col-md-3">
-                    <div class="product-card-page__example-compare-block">
-                      <input id="product-card-page__compare" type="checkbox">
-                      <label for="product-card-page__compare">Добавить для сравнения</label><br>
-                      <span><a href="#">Сравнить</a> выбранные товары</span>
-                    </div>
-                  </div>
-                  <div class="col-md-9">
-                    <div class="product-card-page__example-delivery-block">
+                      <div class="set-card-page__example-delivery-block">
                       <p>О доставке:</p>
                       <p>Доставка по Санкт-Петербургу в пределах КАД при заказе до 3 000 р - 300 р, от 3 000 р - бесплатно.</p>
                       <p>Доставка по Санкт-Петербургу за пределами КАД - 700 р.</p>
                     </div>
                   </div>
                 </div>
-            </div>
-              <div class="product-card-page__full-set">
-                <p>Вы можете приобрести готовый набор:</p>
-                <div class="row">
-                  <div class="col-md-3">
-                    <div class="product-card-page__full-set-suggestion">
-                      <div class="product-card-page__full-set-suggestion-skin">
-                        <img src="img/pic/karta-tovara/img-1.jpg" alt="Пример">
-                      </div>
-                      <input id="first-suggestion" type="checkbox"><label for="first-suggestion">Букет</label><br>
-                      <a href="#">Добавить в корзину</a>
-                    </div>
-                  </div>
-                  <div class="col-md-3">
-                    <div class="product-card-page__full-set-suggestion">
-                      <div class="product-card-page__full-set-suggestion-skin">
-                        <img src="img/pic/karta-tovara/category-img3.jpg" alt="Пример">
-                      </div>
-                      <input id="second-suggestion" type="checkbox"><label for="second-suggestion">Конфеты</label><br>
-                      <a href="#">Купить в один клик</a>
-                    </div>
-                  </div>
-                  <div class="col-md-3">
-                    <div class="product-card-page__full-set-suggestion">
-                      <div class="product-card-page__full-set-suggestion-skin">
-                        <img src="img/pic/karta-tovara/category-img4.jpg" alt="Пример">
-                      </div>
-                      <input id="third-suggestion" type="checkbox"><label for="third-suggestion">Открытка</label><br>
-                    </div>
-                  </div>
-                  <div class="col-md-3">
-                    <div class="product-card-page__full-set-suggestion">
-                      <div class="product-card-page__full-set-total-price">
-                        <p>6400 р.</p>
-                      </div>
-                  </div>
-                </div>
               </div>
-          </div>
+            </div>
           </div>
         </div>
-        <div class="product-card-page__early-products">
-          <div class="product-card-page__early-products-skin">
+        <div class="set-card-page__early-products">
+          <div class="set-card-page__early-products-skin">
             <p>Ранее вы просматривали:</p>
               <div class="row">
                 <div class="col-md-3">
                   <a href="#">
-                    <div class="product-card-page__early-product">
+                    <div class="set-card-page__early-product">
                       <img src="img/pic/karta-tovara/img-1.jpg" alt="Товар">
                     </div>
                     <p>Букет «Белая нежность»</p>
@@ -200,7 +173,7 @@
                 </div>
                 <div class="col-md-3">
                   <a href="#">
-                    <div class="product-card-page__early-product">
+                    <div class="set-card-page__early-product">
                       <img src="img/pic/karta-tovara/img2.jpg" alt="Товар">
                     </div>
                     <p>Букет в корзинке «Радость»</p>
@@ -208,7 +181,7 @@
                 </div>
                 <div class="col-md-3">
                   <a href="#">
-                    <div class="product-card-page__early-product">
+                    <div class="set-card-page__early-product">
                       <img src="img/pic/karta-tovara/img4.jpg" alt="Товар">
                     </div>
                     <p>Коробка конфет «Узоры»</p>
@@ -216,7 +189,7 @@
                 </div>
                 <div class="col-md-3">
                   <a href="#">
-                    <div class="product-card-page__early-product">
+                    <div class="set-card-page__early-product">
                       <img src="img/pic/karta-tovara/category-img4.jpg" alt="Товар">
                     </div>
                     <p>Ваза «Флоренс»</p>
