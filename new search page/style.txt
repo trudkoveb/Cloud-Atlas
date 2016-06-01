@@ -1,0 +1,89 @@
+/* */
+
+ .search-page_result-example-text__btn-skin{
+    /*text-align: center;*/
+    margin-top: 25px;
+ }
+
+ .search-page_result-example-text__btn-skin button{
+    color: #fff;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    position: relative;
+    width: 225px;
+    border: 1px solid transparent;
+}
+
+.search-page_result-example-text__btn-skin button:first-child{
+    background-color: #79b02e;
+    margin-right: 80px;
+}
+
+.search-page_result-example-text__btn-skin button:first-child:before {
+    content: "";
+    display: block;
+    background-image: url(../img/spritesheet.png);
+    width: 25px;
+    height: 25px;
+    background-position: -53px -5px;
+    position: absolute;
+    top: 4px;
+    left: 20px;
+}
+
+ .search-page_result-example-text__btn-skin button:last-child{
+    background-color: #f39300;
+}
+
+.search-page_result-example-text__btn-skin > button:first-child:hover{
+    border: 1px solid  #8aba48;
+    background-color: transparent;
+    color: #8aba48;
+}
+
+
+.search-page_result-example-text__btn-skin > button:hover:before{
+    background-image: url(../img/spritesheet.png);
+    width: 24px;
+    height: 25px;
+    background-position: -105px -51px;
+}
+
+.search-page_result-example-text__btn-skin > button:last-child:hover{
+    border: 1px solid  #f39300;
+    background-color: transparent;
+    color: #f39300;
+}
+
+@media(max-width: 767px){
+    .search-page_result-example-text__btn-skin{
+        text-align: center;
+    }
+
+    .search-page_result-example-text__btn-skin button:first-child{
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+    .search-page_result-example-text__btn-skin{
+        text-align: center;
+    }
+
+    .search-page_result-example-img img{
+        width: auto;
+    }
+
+    .search-page_result-title{
+        text-align: center;
+    }
+}
+
+@media(min-width: 992px) and (max-width: 1199px){
+    .search-page_result-example-text__btn-skin button:first-child{
+        margin-right: 3px;
+    }
+}
