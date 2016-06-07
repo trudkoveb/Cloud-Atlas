@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Форма отбратной связи</title>
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <header>
+          <div class="header__city-choice">
+            <div class="row">
+              <div class="col-md-12">
+                <span>Выберите Ваш город:</span>
+                <a href="#">Санкт-Петербург</a>
+              </div>
+            </div>
+          </div>
+          <div class="header__middle-block">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="header__middle-block__nav">
+                  <ul>
+                    <li><a href="about.html">О нас</a></li>
+                    <li><a href="delivery.html">Доставка</a></li>
+                    <li><a href="payment.html">Оплата</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="header__logo-slogan">
+                  <img src="img/pic/logo.jpg" alt="Цветочный атлас">
+                  <p>«<span>Цветочный атлас</span>» доставляет букеты и цветочные композиции<br>
+                  не только по России, но и по странам СНГ</p>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="header__phone">
+                  <p>8 800 555-55-44</p>
+                  <button>Заказать обратный звонок</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="header__nav">
+            <div class="row">
+              <div class="col-md-8">
+                <div class="header__nav__menu">
+                  <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="buket.html">Букеты</a></li>
+                    <li><a href="composition.html">Композиция</a></li>
+                    <li class="header__nav-two-lines"><a href="presents.html">Подарки<br> и наборы</a></li>
+                    <li class="header__nav-two-lines"><a href="#">Корпоративным<br> клиентам</a></li>
+                    <li><a class="stock-link" href="#">Акции</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="header__nav__search-and-basket">
+                  <div class="header__nav__search__skin">
+                    <input type="text" placeholder="Что вы ищете?">
+                  </div>
+                  <div class="header__nav__basket">
+                    <a class="icon-basket" href="#"><span>0</span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+        <div class="main">
+        <div class="quick-order-feedback-form">
+          <h2>Подарочный набор</h2>
+          <img src="img/pic/img-advertising-block.jpg" alt="Букет">
+          <img src="img/pic/img-advertising-block.jpg" alt="Букет">
+          <img src="img/pic/img-advertising-block.jpg" alt="Букет">
+          <p class="quick-order-feedback-form__total-price">6 400 р.</p>
+            <form action="">
+                        <label for="quick-order-feedback-form-name">ФИО<span>*</span></label>
+                        <input type="text" id="quick-order-feedback-form-name" class="input-name"><br>
+                        <label for="quick-order-feedback-form-tel">Номер телефона<span>*</span></label>
+                        <span>+7 ( <input class="tel-code" type="text" id="quick-order-feedback-form-tel"> )</span> <input class="tel-number" type="text"><br>
+                        <label for="quick-order-feedback-form-address">Адрес<span>*</span></label>
+                        <input type="text" id="quick-order-feedback-form-address" class="address-input"><br>
+                        <label for="quick-order-feedback-form-time">Время<span>*</span></label>
+                        <input type="text" id="quick-order-feedback-form-time" class="time-input"><br>
+                          <div class="quick-order-feedback-form-payment">
+                          <label class="quick-order__flower-size">Размер<span>*</span></label>
+                          <input id="quick-order-feedback-form-payment-small" name="flower-size" type="radio"><label for="quick-order-feedback-form-payment-small" class="little-flower">Маленький</label>
+                          <input id="quick-order-feedback-form-payment-medium" name="flower-size" type="radio"><label for="quick-order-feedback-form-payment-medium" class="middle-flower">Средний</label>
+                          <input id="quick-order-feedback-form-payment-big" name="flower-size" type="radio"><label for="quick-order-feedback-form-payment-big" class="big-flower">Большой</label>
+                          <label class="quick-order__flower-box">Упаковка для букета</label>
+                          <input id="flower-box" type="checkbox"><label for="flower-box">Да (300 р)</label>
+                            <div class="row ">
+                              <div class="col-md-4">
+                                <label class="quick-order__flower-payment-type">Способ оплаты<span>*</span></label>
+                              </div>
+                              <div class="col-md-8">
+                                <p><input type="radio" id="quick-order-feedback-form-cash" name="order-radio"><label for="quick-order-feedback-form-cash">Наличные</label></p>
+                                <p><input type="radio" id="quick-order-feedback-form-yandex-money" name="order-radio"><label for="quick-order-feedback-form-yandex-money">Яндекс деньги</label></p>
+                                <p><input type="radio" id="quick-order-feedback-form-web-money" name="order-radio"><label for="quick-order-feedback-form-web-money">Web money</label></p>
+                                <p><input type="radio" id="quick-order-feedback-form-card" name="order-radio"><label for="quick-order-feedback-form-card">Оплата по карте (Visa, Mastercard)</label></p>
+                              </div>
+                            </div>
+                          </div>
+                    <div class="quick-order-feedback-form__btn-skin">
+                      <input type="submit" value="Купить">
+                    </div>
+                    <a href="#" class="main-feedback-form-close-btn"></a>
+                  </form>
+          </div>
+        </div>
+      </div>
+      </div>
+      <footer>
+        <div class="container">
+          <div class="footer__skin">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="footer__nav">
+                  <p class="footer__title">Информация</p>
+                  <ul>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Помощь</a></li>
+                    <li><a href="#">Оплата</a></li>
+                    <li><a href="#">Доставка</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="footer__subscribe">
+                  <p class="footer__title">Новости</p>
+                  <p class="footer__subscribe-text">Оформите подписку на новости и<br>  получите скидку!</p>
+                  <div class="footer__subscribe-input">
+                    <input type="text" placeholder="Введите Ваш e-mail">
+                  </div>
+                  <div class="footer__subscribe-social">
+                    <a class="insta" href="#"></a>
+                    <a class="vk" href="#"></a>
+                    <a class="facebook" href="#"></a>
+                    <a class="twitter" href="#"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="footer__contacts">
+                  <p class="footer__title">Контакты</p>
+                  <p class="footer__contacts-info icon-address">ООО «Цветочный атлас»<br> г.Санкт-Петербург,<br> ул. Счастливая д.3</p><br>
+                  <p class="footer__contacts-info icon-tel">8 800 555-55-44</p><br>
+                  <a class="footer__contacts-info icon-mail" href="mailto:infoflower@gmail.com">infoflower@gmail.com</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      // убирает placaholder при фокусе
+       $('input,textarea').focus(function(){
+       $(this).data('placeholder',$(this).attr('placeholder'))
+       $(this).attr('placeholder','');
+       });
+       $('input,textarea').blur(function(){
+         $(this).attr('placeholder',$(this).data('placeholder'));
+       });
+       // появление\скрытие блока с фильтром цветов
+       $(document).ready(function(){
+       $('.hidden-flowers-filter').hide();
+       $('.show-hidden-block').click(function(){
+       $(this).next().toggle()});
+       });
+    </script>
+  </body>
+</html>

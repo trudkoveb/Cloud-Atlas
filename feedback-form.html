@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Форма отбратной связи</title>
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <header>
+          <div class="header__city-choice">
+            <div class="row">
+              <div class="col-md-12">
+                <span>Выберите Ваш город:</span>
+                <a href="#">Санкт-Петербург</a>
+              </div>
+            </div>
+          </div>
+          <div class="header__middle-block">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="header__middle-block__nav">
+                  <ul>
+                    <li><a href="about.html">О нас</a></li>
+                    <li><a href="delivery.html">Доставка</a></li>
+                    <li><a href="payment.html">Оплата</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="header__logo-slogan">
+                  <img src="img/pic/logo.jpg" alt="Цветочный атлас">
+                  <p>«<span>Цветочный атлас</span>» доставляет букеты и цветочные композиции<br>
+                  не только по России, но и по странам СНГ</p>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="header__phone">
+                  <p>8 800 555-55-44</p>
+                  <button>Заказать обратный звонок</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="header__nav">
+            <div class="row">
+              <div class="col-md-8">
+                <div class="header__nav__menu">
+                  <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="buket.html">Букеты</a></li>
+                    <li><a href="composition.html">Композиция</a></li>
+                    <li class="header__nav-two-lines"><a href="presents.html">Подарки<br> и наборы</a></li>
+                    <li class="header__nav-two-lines"><a href="#">Корпоративным<br> клиентам</a></li>
+                    <li><a class="stock-link" href="#">Акции</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="header__nav__search-and-basket">
+                  <div class="header__nav__search__skin">
+                    <input type="text" placeholder="Что вы ищете?">
+                  </div>
+                  <div class="header__nav__basket">
+                    <a class="icon-basket" href="#"><span>0</span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+        <div class="main">
+          <div class="main-feedback-form">
+            <h2>ОБРАТНЫЙ ЗВОНОК</h2>
+            <form action="">
+            <label for="main-feedback-form-name">Имя</label><input id="main-feedback-form-name" type="text"><br>
+            <label for="main-feedback-phone">Номер телефона</label><span>+7 ( <input id="main-feedback-phone" type="text"> )</span><input type="text">
+            <p>Мы перезвоним вам в течение 10 минут!</p>
+            <div class="main-feedback-form__btn-skin">
+              <input type="submit" value="Заказать">
+            </div>
+            <a href="#" class="main-feedback-form-close-btn"></a>
+            </form>
+          </div>
+        </div>
+      </div>
+      </div>
+      <footer>
+        <div class="container">
+          <div class="footer__skin">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="footer__nav">
+                  <p class="footer__title">Информация</p>
+                  <ul>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Помощь</a></li>
+                    <li><a href="#">Оплата</a></li>
+                    <li><a href="#">Доставка</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="footer__subscribe">
+                  <p class="footer__title">Новости</p>
+                  <p class="footer__subscribe-text">Оформите подписку на новости и<br>  получите скидку!</p>
+                  <div class="footer__subscribe-input">
+                    <input type="text" placeholder="Введите Ваш e-mail">
+                  </div>
+                  <div class="footer__subscribe-social">
+                    <a class="insta" href="#"></a>
+                    <a class="vk" href="#"></a>
+                    <a class="facebook" href="#"></a>
+                    <a class="twitter" href="#"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="footer__contacts">
+                  <p class="footer__title">Контакты</p>
+                  <p class="footer__contacts-info icon-address">ООО «Цветочный атлас»<br> г.Санкт-Петербург,<br> ул. Счастливая д.3</p><br>
+                  <p class="footer__contacts-info icon-tel">8 800 555-55-44</p><br>
+                  <a class="footer__contacts-info icon-mail" href="mailto:infoflower@gmail.com">infoflower@gmail.com</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      // убирает placaholder при фокусе
+       $('input,textarea').focus(function(){
+       $(this).data('placeholder',$(this).attr('placeholder'))
+       $(this).attr('placeholder','');
+       });
+       $('input,textarea').blur(function(){
+         $(this).attr('placeholder',$(this).data('placeholder'));
+       });
+       // появление\скрытие блока с фильтром цветов
+       $(document).ready(function(){
+       $('.hidden-flowers-filter').hide();
+       $('.show-hidden-block').click(function(){
+       $(this).next().toggle()});
+       });
+    </script>
+  </body>
+</html>

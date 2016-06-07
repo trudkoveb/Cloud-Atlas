@@ -4246,3 +4246,314 @@ header > .header__city-choice a{
         margin-right: 3px;
     }
 }
+
+/* Feedback form */
+
+.main-feedback-form{
+    text-align: center;
+    border: 1px solid  #686868;
+    position: relative;
+    width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+}
+
+.main-feedback-form a{
+    background-image: url(../img/icon-basket-delete.png);
+    width: 22px;
+    height: 22px;
+    border-radius: 15px;
+    display: block;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+}
+
+.main-feedback-form form{
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main-feedback-form h2{
+    margin: 36px 20px;
+    font-size: 21px;
+    color: #7ead2b;
+    padding: 0;
+}
+
+.main-feedback-form label{
+    display: inline-block;
+    font-size: 21px;
+    color: #7ead2b;
+    font-weight: normal;
+}
+
+.main-feedback-form label:first-child{
+    padding-right: 70px;
+}
+
+.main-feedback-form label:nth-of-type(2){
+    padding-right: 15px;
+}
+
+.main-feedback-form input[type=text]{
+    margin-bottom: 14px;
+    border: 1px solid #686868;
+    padding: 14px;
+    display: inline-block;
+}
+
+.main-feedback-form label + input{
+    width: 75%;
+}
+
+.main-feedback-form form span > input[type=text]{
+    width: 60px;
+    font-size: 14px;
+}
+
+.main-feedback-form form span + input[type=text]{
+    width: 32%;
+    margin-left: 20px;
+}
+
+.main-feedback-form form p{
+    font-size: 18px;
+    color: #949494;
+}
+
+.main-feedback-form form span{
+    font-size: 21px;
+    color: #686868;
+}
+
+.main-feedback-form input[type=submit]{
+    background-color: #79b02e;
+    color: #fff;
+    border: 1px solid transparent;
+    font-weight: bold;
+     width: 100%;
+     padding: 5px 0;
+}
+
+.main-feedback-form__btn-skin{
+    width: 225px;
+    margin: 20px auto;
+}
+
+.main-feedback-form input[type=submit]:hover{
+    background-color: transparent;
+    color: #79b02e;
+    border: 1px solid #79b02e;
+}
+
+@media (max-width: 767px){
+    .main-feedback-form{
+        width: 90%;
+    }
+
+    .main-feedback-form input, .main-feedback-form label{
+        display: block;
+    }
+
+    .main-feedback-form label + input{
+        width: 250px;
+    }
+
+    .main-feedback-form form span + input[type=text]{
+        width: 115px;
+    }
+
+    .main-feedback-form form span > input[type=text]{
+        width: 60px;
+    }
+}
+
+/* Quick order form */
+
+.quick-order-feedback-form img{
+    width: 20%;
+    display: inline-block;
+    margin-bottom: 40px;
+    margin: 20px;
+}
+
+.quick-order-feedback-form__total-price{
+    font-weight: bold;
+    font-size: 24px;
+    color: #79b02d;
+}
+
+.quick-order-feedback-form img:last-child{margin-right: 0;}
+
+.quick-order-feedback-form{
+    text-align: center;
+    border: 1px solid  #686868;
+    position: relative;
+    width: 700px;
+    margin: 50px auto;
+    background-color: #fff;
+}
+
+.quick-order-feedback-form a{
+    background-image: url(../img/icon-basket-delete.png);
+    width: 22px;
+    height: 22px;
+    border-radius: 15px;
+    display: block;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+}
+
+.quick-order-feedback-form form{
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.quick-order-feedback-form h2{
+    margin: 36px 20px;
+    font-size: 21px;
+    color: #7ead2b;
+    padding: 0;
+}
+
+.quick-order-feedback-form label{
+    display: inline-block;
+    font-size: 21px;
+    color: #686868;
+    font-weight: normal;
+}
+
+.quick-order-feedback-form form label:first-child{padding-right: 50px;}
+.quick-order-feedback-form form label:nth-of-type(2){padding-right: 40px;}
+.quick-order-feedback-form form label:nth-of-type(3){padding-right: 37px;}
+.quick-order-feedback-form form label:nth-of-type(4){padding-right: 34px;}
+
+.quick-order-feedback-form label + span{
+    font-size: 21px;
+    color: #686868;
+}
+
+.quick-order-feedback-form label > span{
+    color: #79b02e;
+}
+
+.quick-order-feedback-form label + span > input{
+    font-size: 14px;
+}
+
+.quick-order-feedback-form input[type=text]{
+    margin-bottom: 14px;
+    border: 1px solid #686868;
+    padding: 14px;
+    display: inline-block;
+}
+
+.input-name{
+    width: 75%;
+}
+
+.tel-code{
+    width: 60px;
+}
+
+.tel-number{
+    width: 190px;
+}
+
+.address-input{
+    width: 75%;
+}
+
+.time-input{
+    width: 75%;
+}
+
+.quick-order-feedback-form-payment input[type=radio]{
+    margin-right: 10px;
+}
+
+.quick-order-feedback-form-payment label{
+    padding-right: 0;
+    font-size: 21px;
+}
+
+.quick-order-feedback-form-payment form label:first-child{
+    font-size: 21px;
+}
+
+.quick-order-feedback-form form .quick-order-feedback-form-payment label.quick-order__flower-size{
+    padding-right: 0;
+}
+
+.quick-order-feedback-form form .quick-order-feedback-form-payment label.quick-order__flower-size{
+    /*padding-right: 20px;*/
+}
+
+.quick-order-feedback-form input[type=submit]{
+    background-color: #79b02e;
+    color: #fff;
+    border: 1px solid transparent;
+    font-weight: bold;
+     width: 100%;
+     padding: 5px 0;
+}
+
+.quick-order-feedback-form__btn-skin{
+    width: 225px;
+    margin: 20px auto;
+}
+
+.quick-order-feedback-form input[type=submit]:hover{
+    background-color: transparent;
+    color: #79b02e;
+    border: 1px solid #79b02e;
+}
+
+.quick-order__flower-size{
+    margin-right: 20px;
+}
+
+.quick-order-feedback-form form .quick-order-feedback-form-payment label.quick-order__flower-size + input ~ label{
+    margin-right: 30px;
+    padding-right: 0;
+}
+
+.quick-order-feedback-form-payment .quick-order__flower-box{
+    margin-right: 65px;
+}
+
+.quick-order-feedback-form-payment input[type=checkbox]{
+    margin-right: 10px;
+}
+
+.quick-order-feedback-form form .quick-order-feedback-form-payment label.quick-order__flower-payment-type{
+    padding-right: 0;
+}
+
+
+@media (max-width: 767px){
+    .quick-order-feedback-form{
+        width: 90%;
+    }
+
+    .quick-order-feedback-form form label{
+        display: block;
+    }
+
+    .quick-order-feedback-form .quick-order-feedback-form-payment label{
+        display: inline-block;
+    }
+
+    .quick-order-feedback-form .quick-order-feedback-form-payment label.quick-order__flower-size{
+        display: block;
+    }
+
+    .quick-order-feedback-form .quick-order-feedback-form-payment label.quick-order__flower-box{
+        display: block;
+    }
+}
+
